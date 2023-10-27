@@ -1,0 +1,16 @@
+/* Qr.css */
+
+/* Style the container div */
+.qr-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the image */
+  .qr-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  

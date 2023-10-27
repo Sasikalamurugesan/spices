@@ -1,0 +1,61 @@
+.blog-post {
+    width: 400px; /* Set the desired width for your cards */
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .post-card {
+    position: relative;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .date-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .post-title {
+    margin-top: 10px;
+  }
+  
+  .post-content {
+    margin-top: 10px;
+  }
+  
+  .left-card {
+    float: left;
+    clear: left;
+  }
+  
+  .right-card {
+    float: right;
+    clear: right;
+  }
+  
+  
+  .blog-post {
+    /* ... other styles ... */
+    position: relative; /* Add relative positioning for the pseudo-element */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Set the border color to a darkened shade */
+  }
+  
+  .blog-post::before {
+    content: '';
+    position: absolute;
+    top: -4px; /* Adjust the position to overlap the border */
+    left: -4px; /* Adjust the position to overlap the border */
+    right: -4px; /* Adjust the position to overlap the border */
+    bottom: -4px; /* Adjust the position to overlap the border */
+    border: 2px solid rgba(0, 0, 0, 0.2); /* Set the border color of the pseudo-element to match the border */
+    z-index: -1; /* Place it behind the content */
+  }
+  
+  

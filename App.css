@@ -1,0 +1,165 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
+
+/*  css variables */
+:root {
+  --card-bg-01: #fdefe6;
+  --card-bg-02: #d6e5fb;
+  --card-bg-03: #ceebe9;
+  --card-bg-04: #e2f2b2;
+  --primary-color: #0a1d37;
+  --hero-bg: #d6e5fb;
+  --heading-fontSize: 2rem;
+  --small-text-color: #999;
+  --heading-text-color: #0a1d37;
+}
+
+/* reset browser default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  color: var(--small-text-color);
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  font-size: var(--heading-fontSize);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+img{
+  width: 100%;
+}
+section{
+  padding: 60px 0px;
+}
+.section_title{
+  color:var(--primary-color);
+  font-weight: 600;
+}
+/* src/App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.spices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.spice-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+@media only screen and(max-width:768px)
+{
+  section{
+    padding: 40px 0px;
+  }
+}
+/* src/App.css */
+.blog-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+  justify-content: space-between; /* Distribute cards evenly */
+}
+
+.blog-card {
+  flex-basis: calc(33.33% - 10px); /* Adjust the width of each card and reduce spacing */
+  margin: 5px; /* Reduce the spacing between cards */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align text to the left */
+}
+
+.blog-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content {
+  margin-top: 10px;
+}
+
+.blog-date {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.blog-day,
+.blog-month,
+.blog-year {
+  margin: 0 5px;
+  font-weight: bold;
+  color: #FF5733;
+}
+
+h1 {
+  color: #FF5733;
+}

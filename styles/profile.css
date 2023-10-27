@@ -1,0 +1,46 @@
+/* profile.css */
+
+/* Container for the whole profile page */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Profile header styles */
+.profile-header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+/* Profile information styles */
+.profile-info {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+/* Profile title styles */
+.profile-h {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Other profile information styles */
+.profile-other {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Horizontal line styles */
+hr {
+  border: 0;
+  height: 1px;
+  background: #e0e0e0;
+  margin: 10px 0;
+}
